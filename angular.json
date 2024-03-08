@@ -30,9 +30,19 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/css/bootstrap.min.scss",
+              "src/assets/css/main.scss",
+              "src/assets/css/aos.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/core/jquery.3.2.1.min.js",
+              "src/assets/js/core/popper.min.js",
+              "src/assets/js/core/bootstrap.min.js",
+              "src/assets/js/now-ui-kit.js",
+              "src/assets/js/aos.js",
+              "src/assets/js/main.js"
+          ]
           },
           "configurations": {
             "production": {
